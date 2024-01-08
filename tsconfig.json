@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "project": "./tsconfig.json",
     "target": "es5",
     "lib": [
       "dom",
@@ -21,6 +22,9 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "src/**/*.ts",
+    "cypress/**/*.ts",
+    "cypress.config.ts"
   ]
 }
